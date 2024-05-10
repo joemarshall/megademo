@@ -1,7 +1,3 @@
----
-Title: Epic Megagrants Proposal
----
-
 # Epic Megagrants Proposal - Vulkan Video Rendering for Android
 
 This proposal is to merge my existing work on vulkan accelerated rendering of video on Android into Unreal Engine.
@@ -79,13 +75,9 @@ C)  Other uses of hardware buffers may also be possible, e.g. streaming video vi
 
 The following video is captured on Meta Quest 3, playing a 7680x3840 x 30 FPS H265 MP4 file encoded at a bitrate of 117000 kb/s. When the screen says "vulkan_vide", that is my plugin, when it says 'old_slow', that is the standard Unreal Android Media Player. The FPS displayed is the headset FPS. As you can see, when using the standard media player, the headset drops to an unusable 15 FPS, which on a VR headset is sickness inducing and tears as you move your head. With direct Vulkan video, the headset keeps a steady 72FPS, and head tracking remains smooth and lovely. 
 
-If you have access to a Quest 3 and want to see this in action yourself, download the 
+If you have access to a Quest 3 and want to see this in action yourself, download the [demo apk (200MB)](https://github.com/joemarshall/megademo/releases/latest/download/quest_demo.zip). Apologies, it is massive, because it contains a 10 second 360 video clip....
 
-[demo apk (200MB)](https://github.com/joemarshall/megademo/releases/latest/download/quest_demo.zip)
 
-Apologies, it is massive, because it contains a 10 second 360 video clip....
-
-<video src="demo.mp4" width="100%" />
-
+https://github.com/joemarshall/megademo/assets/1436795/bc84ce8a-07ef-4d95-a95d-85f81bc05c50
 
 
