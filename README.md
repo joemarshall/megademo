@@ -14,10 +14,10 @@ The proposed budget covers an estimate of developer time, and some additional ha
 
 |Item|Unit cost|Number|Total|
 |----|---------|------|-----|
-| Developer days  | 800 | 40 | $34400 | 
+| Developer days  | 850 | 40 | $34000 | 
 | Updated development machine  | 5000 | 1 | $5000 |
 | Test hardware | 500 | 8 | $4000 |
-| **Final Total** | || **$43400** |
+| **Final Total** | || **$41000** |
 
 
 # Why is Android video so bad in Unreal?
